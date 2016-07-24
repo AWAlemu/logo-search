@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Logo Search</title>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href='https://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<div class="content">
+		<div class="header">
+			<h2>Society Education Programs</h2>
+		</div>
+		<div class="search">
+			<form >
+				<select id="program" name="program">
+					<option value="allPrograms" selected><p>Search All<p></option>
+					<option value="" disabled selected hidden>Program Type</option>
+					<option value="scholarship">Scholarchip Program</option>
+					<option value="loan">Loan Program</option>
+				</select>
+				<select id="level" name="educationLvl">
+					<option value="allLvl" selected>Search All</option>
+					<option value="" disabled selected hidden>Education Level</option>
+					<option value="kgtn">Kindergarten</option>
+					<option value="hs">High School</option>
+				</select>
+				<br>
+				<button id="searchBtn" type="submit">Search</button>
+			</form>
+		</div>
+		<div class="logos">
+			<img class="logo schlr kg" id="logo1" src="images/aci.png">
+			<img class="logo loan hs" id="logo2" src="images/acm.png">
+			<img class="logo kg" id="logo3" src="images/aci.png">
+			<img class="logo schlr hs" id="logo4" src="images/afe.png">
+			<br>
+			<img class="logo loan kg" id="logo5" src="images/afe.png">
+			<img class="logo loan hs" id="logo6" src="images/aci.png">
+			<img class="logo kg" id="logo7" src="images/afe.png">
+			<img class="logo schlr hs" id="logo8" src="images/acm.png">
+			<br>
+			<img class="logo kg" id="logo9" src="images/acm.png">
+			<img class="logo schlr hs" id="logo10" src="images/afe.png">
+			<img class="logo schlr kg" id="logo11" src="images/acm.png">
+			<img class="logo loan hs" id="logo12" src="images/aci.png">
+			<br>
+			<img class="logo schlr kg" id="logo13" src="images/aci.png">
+			<img class="logo loan hs" id="logo14" src="images/afe.png">
+			<img class="logo schlr kg" id="logo15" src="images/aci.png">
+			<img class="logo hs" id="logo16" src="images/acm.png">
+		</div>
+	</div>
+	<script src="https://code.jquery.com/jquery.min.js"></script>
+	<script src="js/app.js"></script>
+</body>
+</html>
